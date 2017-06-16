@@ -3,7 +3,7 @@ Preprocessing prostate biopsy specimen images which would be used for deep learn
 <br>
 ![example](./doc/mask.png)
 <br>
-## processing steps
+## Processing Steps
 ### 1.create file list
 ### 2.crop valid area
 ### 3.create nidus mask
