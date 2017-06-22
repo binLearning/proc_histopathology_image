@@ -1,5 +1,5 @@
 # proc_histopathology_image
-Preprocessing prostate biopsy specimen images which would be used for deep learning.<br>
+Preprocessing prostate biopsy specimen images which will be used for deep learning.<br>
 <br>
 ![example](./doc/mask.png)
 <br>
