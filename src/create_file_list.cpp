@@ -18,9 +18,11 @@ void CreateFileList(string dir_src)
 {
   string file_path_info = PathJoin(dir_src, "files.txt");
   ofstream ofs_info(file_path_info.c_str(), ios::out);
+
+  string sub_dir_ori = PathJoin(dir_src, "original");
   
   vector<string> vec_file_path, vec_file_name;
-  TraverseDir(dir_src, vec_file_path, vec_file_name);
+  TraverseDir(sub_dir_ori, vec_file_path, vec_file_name);
   sort(vec_file_name.begin(), vec_file_name.end());
   
   vector<string>::iterator iter = vec_file_name.begin();
