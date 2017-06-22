@@ -43,13 +43,13 @@ void SelectTrainSample(string dir_src)
   
   const int PIXEL_VALUE_THRESHOLD   = 240;
   const int SAMPLE_SIZE             = 224;
-  const int SLIDING_STEP            = 32;
+  const int SLIDING_STEP            = 64;
   
   const int NUMBER_THRESHOLD_VALID  = 10000; // 224*224*0.2 = 10035.2
   const int NUMBER_THRESHOLD_NIDUS  = 30000; // 224*224*0.6 = 30105.6
   const int NUMBER_THRESHOLD_NORMAL = 5000;  // 224*224*0.1 = 5017.6
   
-  const int RANDOM_SELECT_MAX_NUM   = 10000;
+  const int RANDOM_SELECT_MAX_NUM   = 5000;
   
   int total_num_invalid = 0;
   int total_num_normal  = 0;
